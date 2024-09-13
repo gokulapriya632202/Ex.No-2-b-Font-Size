@@ -44,8 +44,8 @@ Step 6:Close the Android project.
  ```
 /*
 Program to Develop an application that uses Font Size using Android Studio .
-Developed by: 
-RegisterNumber:  
+Developed by: GOKULA PRIYA P
+RegisterNumber:  212222040044
 */
 ```
 
@@ -56,6 +56,44 @@ RegisterNumber:
 
 
 ## activity_main.xml:
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Change font size"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Change color"
+        android:textSize="25sp" />
+
+</LinearLayout>
+```
 
 ## Output:
 
