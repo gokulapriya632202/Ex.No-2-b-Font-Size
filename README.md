@@ -1,4 +1,3 @@
-![FontChange Ex2](https://github.com/user-attachments/assets/d23cfe5f-7fb2-46f5-8f67-d69a10608caa)
 # Ex.No:2 Develop an application that uses GUI Components with Fonts and Colors
 
 
